@@ -1,0 +1,1 @@
+from .checkerboard import Checkerboard
