@@ -13,3 +13,4 @@ class Checkerboard(BaseImage):
                 else:
                     color = 'white'
                 self.draw.rectangle([(i, j), (i+self.cell_size, j+self.cell_size)], fill=color)
+        return self.image
